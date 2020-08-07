@@ -1,0 +1,2 @@
+{{ $page := readFile (printf "layouts/partials/%s/%s.html" (path.Dir .File.Path) .Params.emailTemplate) | resources.FromString ".html" | resources.ExecuteAsTemplate "" . }}
+{{ $page.Content | safeHTML }}

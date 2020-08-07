@@ -3,7 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/emails/courses/course-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emails/courses/course-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emails/courses/course-3/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emails/</loc>
   </url>
   
   <url>
